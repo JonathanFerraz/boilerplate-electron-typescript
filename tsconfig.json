@@ -1,0 +1,11 @@
+{
+  "extends": "@sindresorhus/tsconfig",
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "outDir": "dist-js",
+    "target": "es2018",
+    "module": "commonjs",
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "baseUrl": "src"
+  }
+}
